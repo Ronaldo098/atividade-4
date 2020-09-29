@@ -1,0 +1,105 @@
+body {font-family: Arial, Helvetica, sans-serif; background-color: gray;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .botao:hover {
+    opacity: 0.8;
+  }
+
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 400px;
+    height: 240px;
+    border: none;
+  }
+
+  h2{
+      text-align: center;
+      padding-top: 60px;
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .header a.active {
+    color: white;
+  }
+
+  .fa{
+      padding-right: 5px;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+
+  .menu {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  
+  .menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 60px;
+  }
+  
+  .menu a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  .menu a.active {
+    color: black;
+  }
